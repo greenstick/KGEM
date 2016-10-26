@@ -3,8 +3,8 @@ package edu.gsu.cs.kgem.model
 import java.io.File
 
 import edu.gsu.cs.kgem.exec._
-import org.biojava3.core.sequence.DNASequence
-import org.biojava3.core.sequence.io.FastaWriterHelper
+import org.biojava.nbio.core.sequence.DNASequence
+import org.biojava.nbio.core.sequence.io.FastaWriterHelper
 
 import scala.collection.mutable.ListBuffer
 import scala.collection.JavaConverters._
