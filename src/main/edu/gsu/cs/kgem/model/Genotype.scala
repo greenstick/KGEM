@@ -1,7 +1,7 @@
 package edu.gsu.cs.kgem.model
 
 import org.apache.commons.math3.distribution.BinomialDistribution
-import org.biojava3.core.sequence.compound.{DNACompoundSet, NucleotideCompound}
+import org.biojava.nbio.core.sequence.compound.{DNACompoundSet, NucleotideCompound}
 import collection.JavaConversions._
 import collection.mutable
 import scala.collection.mutable.ListBuffer
