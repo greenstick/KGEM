@@ -7,13 +7,13 @@ import collection.mutable
 import edu.gsu.cs.kgem.io.{ArgumentParser, SAMParser}
 import java.io.{PrintStream, File}
 import net.sf.samtools.{SAMFileHeader, SAMRecord}
-import org.biojava3.core.sequence.io.FastaReaderHelper.readFastaDNASequence
+import org.biojava.nbio.core.sequence.io.FastaReaderHelper.readFastaDNASequence
 import collection.JavaConversions._
 import scala.io.Source.fromFile
 import java.util.Date
 import java.text.SimpleDateFormat
 import edu.gsu.cs.kgem.io.OutputHandler._
-import org.biojava3.core.sequence.DNASequence
+import org.biojava.nbio.core.sequence.DNASequence
 import edu.gsu.cs.kgem.io.Config
 import scala.Some
 import scala.collection.parallel.TaskSupport
