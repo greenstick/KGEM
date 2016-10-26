@@ -2,8 +2,8 @@ package edu.gsu.cs.kgem.io
 
 import edu.gsu.cs.kgem.model.Genotype
 import java.io.{File, PrintStream}
-import org.biojava3.core.sequence.DNASequence
-import org.biojava3.core.sequence.io.FastaWriterHelper
+import org.biojava.nbio.core.sequence.DNASequence
+import org.biojava.nbio.core.sequence.io.FastaWriterHelper
 import collection.JavaConversions._
 import edu.gsu.cs.kgem.exec._
 import scala.Some
